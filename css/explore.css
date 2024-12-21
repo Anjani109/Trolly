@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#explore {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.location-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.location-card h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* CSS for location card images */
+.location-card img {
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: 125px;
+    border-radius: 8px; /* Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    transition: transform 0.3s ease; /* Adds a smooth transition effect on hover */
+}
+
+/* Hover effect for location card images */
+.location-card img:hover {
+    transform: scale(1.05); /* Increases image scale slightly on hover */
+}
+
+
+.location-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.location-card button:hover {
+    background-color: #45a049;
+}

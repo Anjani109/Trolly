@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Quiz | Trolly</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="icon" href="images/favicon (1).ico">
+    <script src="js/quiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Trolly logo">
+                Trolly
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="explore.html" class="nav-link">Explore</a></li>
+                <li><a href="agents.html" class="nav-link">Contact Your Agents</a></li>
+                <li><a href="quiz.html" class="nav-link">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="app">
+        <h1>Travel Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons" class="btn-container">
+                <!-- Radio buttons will be injected here by JavaScript -->
+            </div>
+            <button id="next-button" class="btn">Next</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your Destination</h2>
+            <p id="destination"></p>
+            <button id="find-destination" class="btn" onclick="findDestination()">Find My Destination</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Trolly. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

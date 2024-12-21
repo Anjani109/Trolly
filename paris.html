@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>7 Things to Do in Paris</title>
+    <link rel="canonical" href="self.html">
+    <link rel="icon" href="images/favicon (1).ico">
+    <style amp-custom>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #f9f8f8;
+        }
+        .listicle {
+            margin-top: 20px;
+        }
+        .item {
+            position: relative;
+            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            height: 400px; /* Adjust height as needed */
+        }
+        .item .background-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+        .content {
+            position: absolute;
+            bottom: -100px; /* Start position below the visible area */
+            width: 100%;
+            z-index: 2;
+            padding: 20px;
+            background: rgba(242, 239, 239, 0.5); /* Semi-transparent background for better readability */
+            color: white;
+            text-align: center;
+            animation: slideUp 3s ease-in-out forwards; /* Animation to move up */
+        }
+        .content h2 {
+            margin: 0 0 10px;
+            color: white;
+        }
+        .content p {
+            margin: 0;
+            color: white;
+        }
+        @keyframes slideUp {
+            0% {
+                bottom: -100px;
+                opacity: 0;
+            }
+            100% {
+                bottom: 40px; /* Adjust as needed */
+                opacity: 1;
+            }
+        }
+        #am {
+            h2 {
+                color: black;
+            }
+            p {
+                color: black;
+            }
+        }
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+</head>
+<body>
+    <amp-story id="am" standalone title="7 Things to Do in Paris" publisher="Your Publisher" publisher-logo-src="logo.png" poster-portrait-src="poster.jpg">
+        <amp-story-page id="cover">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/cover-paris.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical">
+                <h1>7 Things to Do in Paris</h1>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page1">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/eiffel-tower.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>1. Visit the Eiffel Tower</h2>
+                    <p>The Eiffel Tower is one of the most iconic landmarks in the world. Be sure to go to the top for an incredible view of Paris.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page2">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/louvre.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>2. Explore the Louvre Museum</h2>
+                    <p>The Louvre Museum is home to thousands of works of art, including the Mona Lisa and the Venus de Milo.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page3">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/champs-elysees.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>3. Stroll Down the Champs-Élysées</h2>
+                    <p>The Champs-Élysées is a beautiful avenue lined with shops, cafes, and theaters. It's a great place for a leisurely stroll.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page4">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/notre-dame.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>4. Visit Notre-Dame Cathedral</h2>
+                    <p>Notre-Dame Cathedral is a stunning example of French Gothic architecture. Don't miss the chance to see it up close.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page5">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/seine-cruise.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>5. Take a Seine River Cruise</h2>
+                    <p>A Seine River cruise is a relaxing way to see the city and its landmarks from a different perspective.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page6">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/montmartre.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>6. Explore Montmartre</h2>
+                    <p>Montmartre is a historic district known for its artistic history and the stunning Sacré-Cœur Basilica.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+        <amp-story-page id="page7">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="images/images.paris/versailles.png" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" style="justify-content: flex-end;">
+                <div class="content">
+                    <h2>7. Visit the Palace of Versailles</h2>
+                    <p>The Palace of Versailles is a short trip from Paris and offers a glimpse into the opulent lives of French royalty.</p>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+
+    </amp-story>
+</body>
+</html>
